@@ -1,0 +1,91 @@
+//entend for all (<max-widht>)
+%max-width {
+    max-width:1520px;
+    margin:auto;
+}
+
+%home_top_heading{
+    font-size: 5em;
+    text-decoration: underline;
+    text-decoration-color:$primaryyellow ;
+    text-transform: capitalize;
+    color: $blackgrey;
+    line-height:1.7em ;
+}
+
+%section_top_bottom_padding{
+    padding: 80px 20px;
+}
+
+%section_bg_color{
+    background-color: $white
+}
+
+%button{
+    background: #191C1B;
+    padding: 14px 50px;
+    border-radius: 30px;
+    border: unset;
+    color: #EAAA00;
+    font-size: 1.875em;
+    text-transform: capitalize;
+}
+
+%cf7_form{
+    width: 100%;
+    height: 100vh;
+    position: fixed;
+    overflow: auto;
+    z-index: 99999999;
+    background: #fff;
+    padding: 50px 30px;
+    top: 0;
+}
+
+%cf7_form_input{
+    width: 100%;
+    padding: 26px 0px;
+    border: unset;
+    border-bottom: 1px solid $primaryyellow;
+    font-size: 28px;
+    text-transform: capitalize;
+    color: $input-placeholder-color;
+}
+%cf7_form_button{
+    padding: 15px 30px;
+    border-radius: 30px;
+    border: unset;
+    text-transform: capitalize;
+    font-size: 1.815em;
+    color: $white;
+    font-family: 'Euclid Circular A';
+}
+%cf7_form_placeholder{
+    font-size: 28px;
+    text-transform: capitalize;
+    color: $input-placeholder-color;
+}
+
+%site_all_buttons{
+    font-size: 20px;
+    padding: 12px 30px;
+    border-radius: 40px;
+    border: none;
+    text-transform: capitalize;
+    font-family: $Euclidfont;
+}
+
+%site_service_page_buttun{
+    font-size: 20px;
+    padding: 12px 44px;
+    border-radius: 40px;
+    border: none;
+    text-transform: capitalize;
+    font-family: $Euclidfont;
+}
+
+
+
+
+
+ 
